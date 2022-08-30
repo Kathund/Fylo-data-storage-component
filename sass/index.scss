@@ -12,7 +12,7 @@ $Very-Dark-Blue: hsl(229, 57%, 11%);
 }
 
 body {
-    background: $Very-Dark-Blue;
+    background:  $Very-Dark-Blue url(/images/bg-desktop.png) no-repeat bottom;
     width: 98vw;
     height: 97vh;
     display: flex;
@@ -22,7 +22,6 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-around;
         .fylo {
             border-radius: 16px 128px 16px 16px;
             background-color: $Dark-Blue;
@@ -48,6 +47,12 @@ body {
                     border-radius: 25%;
                 }
             }
+        }
+        .storage {
+            background-color: $Dark-Blue;
+            margin: 24px;
+            height: 78px;
+            width: 128px;
         }
     }
 }
