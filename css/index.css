@@ -5,7 +5,7 @@
 }
 
 body {
-  background: hsl(229deg, 57%, 11%);
+  background: hsl(229deg, 57%, 11%) url(/images/bg-desktop.png) no-repeat bottom;
   width: 98vw;
   height: 97vh;
   display: flex;
@@ -16,7 +16,6 @@ body .container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
 }
 body .container .fylo {
   border-radius: 16px 128px 16px 16px;
@@ -43,4 +42,10 @@ body .container .fylo .btns .btn {
   padding: 24px;
   margin: 8px;
   border-radius: 25%;
+}
+body .container .storage {
+  background-color: hsl(228deg, 56%, 26%);
+  margin: 24px;
+  height: 78px;
+  width: 128px;
 }/*# sourceMappingURL=index.css.map */
