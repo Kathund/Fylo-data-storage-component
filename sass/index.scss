@@ -1,0 +1,53 @@
+$Gradient-1: hsl(6, 100%, 80%);
+$Gradient-2: hsl(335, 100%, 65%);
+$Pale-Blue: hsl(243, 100%, 93%);
+$Grayish-Blue: hsl(229, 7%, 55%);
+$Dark-Blue: hsl(228, 56%, 26%);
+$Very-Dark-Blue: hsl(229, 57%, 11%);
+
+* *::before *::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: $Very-Dark-Blue;
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        .fylo {
+            border-radius: 16px 128px 16px 16px;
+            background-color: $Dark-Blue;
+            padding: 24px;
+            padding-right: 160px;
+            img {
+                margin: 24px;
+            }
+            .btns {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                .btn {
+                    width: 32px;
+                    height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    background: $Very-Dark-Blue;
+                    padding: 24px;
+                    margin: 8px;
+                    border-radius: 25%;
+                }
+            }
+        }
+    }
+}
