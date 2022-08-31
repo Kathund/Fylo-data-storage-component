@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 * *::before *::after {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Space Mono", monospace;
 }
 
 body {
+  font-size: 14px;
+  font-family: "Space Mono", monospace;
   background: hsl(229deg, 57%, 11%) url(/images/bg-desktop.png) no-repeat bottom;
   width: 98vw;
   height: 97vh;
@@ -18,10 +23,12 @@ body .container {
   flex-wrap: nowrap;
 }
 body .container .fylo {
-  border-radius: 16px 128px 16px 16px;
+  border-radius: 16px 96px 16px 16px;
   background-color: hsl(228deg, 56%, 26%);
-  padding: 24px;
-  padding-right: 160px;
+  padding: 18px;
+  padding-right: 124px;
+  width: 216px;
+  margin-bottom: 20px;
 }
 body .container .fylo img {
   margin: 24px;
@@ -44,8 +51,26 @@ body .container .fylo .btns .btn {
   border-radius: 25%;
 }
 body .container .storage {
-  background-color: hsl(228deg, 56%, 26%);
+  background: bottom hsl(228deg, 56%, 26%);
+  border-radius: 24px;
   margin: 24px;
-  height: 78px;
-  width: 128px;
+  margin-top: 48px;
+  height: 105px;
+  width: 500px;
+  padding: 24px;
+}
+body .container .storage p {
+  color: hsl(229deg, 7%, 55%);
+}
+body .container .storage span {
+  color: hsl(243deg, 100%, 93%);
+}
+body .container .storage .line {
+  background: linear-gradient(90deg, hsl(6deg, 100%, 80%), hsl(335deg, 100%, 65%));
+  height: 20px;
+  width: 460px;
+  border-radius: 24px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: hsl(229deg, 57%, 11%);
 }/*# sourceMappingURL=index.css.map */
