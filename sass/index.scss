@@ -5,6 +5,7 @@ $Pale-Blue: hsl(243, 100%, 93%);
 $Grayish-Blue: hsl(229, 7%, 55%);
 $Dark-Blue: hsl(228, 56%, 26%);
 $Very-Dark-Blue: hsl(229, 57%, 11%);
+$progress-BG: hsla(229, 57%, 11%, 0.45);
 
 * *::before *::after {
     padding: 0px;
@@ -58,12 +59,11 @@ body {
         .storage {
             background: bottom $Dark-Blue;
             border-radius: 24px;
-            //background: linear-gradient(90deg, $Gradient-1, $Gradient-2);
             margin: 24px;
             margin-top: 48px;
             height: 105px;
             width: 500px;
-            padding: 24px;
+            padding: 28px;
             p {
                 color: $Grayish-Blue;
             }
@@ -71,15 +71,18 @@ body {
                 color: $Pale-Blue;
             }
             .border {
-                
+                background: $progress-BG;
+                width: 500px;
+                border-radius: 24px;
+                height: 25px;
+                display: flex;
+                align-items: center;
                 .line {
                     background: linear-gradient(90deg, $Gradient-1, $Gradient-2);
-                    height: 20px;
-                    width: 460px;
                     border-radius: 24px;
-                    border-width: 3px;
-                    border-style: solid;
-                    border-color: $Very-Dark-Blue;
+                    height: 20px;
+                    width: 380px;
+                    margin: 3px;
                 }
             }
         }
