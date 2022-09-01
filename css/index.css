@@ -57,7 +57,7 @@ body .container .storage {
   margin-top: 48px;
   height: 105px;
   width: 500px;
-  padding: 24px;
+  padding: 28px;
 }
 body .container .storage p {
   color: hsl(229deg, 7%, 55%);
@@ -65,12 +65,18 @@ body .container .storage p {
 body .container .storage span {
   color: hsl(243deg, 100%, 93%);
 }
+body .container .storage .border {
+  background: hsla(229deg, 57%, 11%, 0.45);
+  width: 500px;
+  border-radius: 24px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
 body .container .storage .border .line {
   background: linear-gradient(90deg, hsl(6deg, 100%, 80%), hsl(335deg, 100%, 65%));
-  height: 20px;
-  width: 460px;
   border-radius: 24px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: hsl(229deg, 57%, 11%);
+  height: 20px;
+  width: 380px;
+  margin: 3px;
 }/*# sourceMappingURL=index.css.map */
