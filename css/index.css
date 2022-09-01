@@ -65,12 +65,12 @@ body .container .storage p {
 body .container .storage span {
   color: hsl(243deg, 100%, 93%);
 }
-body .container .storage .line {
+body .container .storage .border .line {
   background: linear-gradient(90deg, hsl(6deg, 100%, 80%), hsl(335deg, 100%, 65%));
   height: 20px;
   width: 460px;
   border-radius: 24px;
-  border-width: 1px;
+  border-width: 3px;
   border-style: solid;
   border-color: hsl(229deg, 57%, 11%);
 }/*# sourceMappingURL=index.css.map */
