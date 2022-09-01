@@ -70,14 +70,17 @@ body {
             span {
                 color: $Pale-Blue;
             }
-            .line {
-                background: linear-gradient(90deg, $Gradient-1, $Gradient-2);
-                height: 20px;
-                width: 460px;
-                border-radius: 24px;
-                border-width: 1px;
-                border-style: solid;
-                border-color: $Very-Dark-Blue;
+            .border {
+                
+                .line {
+                    background: linear-gradient(90deg, $Gradient-1, $Gradient-2);
+                    height: 20px;
+                    width: 460px;
+                    border-radius: 24px;
+                    border-width: 3px;
+                    border-style: solid;
+                    border-color: $Very-Dark-Blue;
+                }
             }
         }
     }
