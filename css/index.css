@@ -93,4 +93,37 @@ body .container .storage .text {
   display: flex;
   justify-content: space-between;
   color: hsl(243deg, 100%, 93%);
+}
+body .container .storage .triangle {
+  width: 7%;
+  height: 12%;
+  position: absolute;
+  transform: rotateX(222deg);
+  margin-left: 393px;
+  margin-top: -26px;
+}
+body .container .storage .left {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 138px;
+  height: 83px;
+  background: #fff;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 351px;
+  margin-top: -84px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+body .container .storage .left p {
+  color: hsl(229deg, 57%, 11%);
+  font-family: "Raleway", sans-serif;
+}
+body .container .storage .left span {
+  color: hsl(229deg, 7%, 55%);
+  font-size: 11px;
 }/*# sourceMappingURL=index.css.map */
