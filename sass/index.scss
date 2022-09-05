@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 $Gradient-1: hsl(6, 100%, 80%);
 $Gradient-2: hsl(335, 100%, 65%);
 $Pale-Blue: hsl(243, 100%, 93%);
@@ -107,23 +107,23 @@ body {
                 position: absolute;
                 transform: rotateX(222deg);
                 margin-left: 393px;
-                margin-top: -26px;
+                margin-top: -36px;
             }
             .left {
                 font-family: "Raleway", sans-serif;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 138px;
-                height: 83px;
+                width: 158px;
+                height: 60px;
                 background: #fff;
                 border-radius: 8px;
                 position: absolute;
                 z-index: 1;
-                margin-left: 351px;
-                margin-top: -84px;
+                margin-left: 331px;
+                margin-top: -61px;
                 text-align: center;
-                font-size: 24px;
+                font-size: 32px;
                 font-weight: 700;
                 p {
                     color: $Very-Dark-Blue;
