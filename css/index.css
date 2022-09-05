@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 * *::before *::after {
   padding: 0px;
   margin: 0px;
@@ -100,23 +100,23 @@ body .container .storage .triangle {
   position: absolute;
   transform: rotateX(222deg);
   margin-left: 393px;
-  margin-top: -26px;
+  margin-top: -36px;
 }
 body .container .storage .left {
   font-family: "Raleway", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 138px;
-  height: 83px;
+  width: 158px;
+  height: 60px;
   background: #fff;
   border-radius: 8px;
   position: absolute;
   z-index: 1;
-  margin-left: 351px;
-  margin-top: -84px;
+  margin-left: 331px;
+  margin-top: -61px;
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
 }
 body .container .storage .left p {
